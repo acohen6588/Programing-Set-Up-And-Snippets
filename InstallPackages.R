@@ -6,7 +6,7 @@ list.of.packages <- c("dplyr", "plyr", "data.table", "MissForest", "MissMDA",
                       "LSMean", "Comparison", "RegTest", "ACD", "BinomTools",
                       "DAIM", "ClustEval", "SigClust", "PROC", "TimeROC", "Rcpp",
                       "parallel", "xml", "httr", "rjson", "jasonlite", "shiny",
-                      "Rmarkdown", "tm", "OpenNLP", "sqldf", "RODBC", "rmonogodb")
+                      "Rmarkdown", "tm", "OpenNLP", "sqldf", "RODBC", "rmonogodb", "profvis")
 new.packages <- list.of.packages[!(list.of.packages
                                    %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
