@@ -3,5 +3,5 @@
 # InstallPackages.R
 List of essential R Packages for new user
 
-# Lubridate.R
+# LubridateCode.R
 Code for lubridate package that turns birthdate into continuos regressor
